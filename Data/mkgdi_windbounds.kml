@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="mkgdi_windbounds" id="mkgdi_windbounds">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="pans" type="string"></SimpleField>
+</Schema>
+<Folder><name>mkgdi_windbounds</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mkgdi_windbounds">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>24.4272105246973,-21.2434364665894 24.4460529169903,-19.8679418291947 26.647472416565,-19.9244690060739 26.5846644422548,-21.3093848396152 24.4272105246973,-21.2434364665894</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
